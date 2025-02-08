@@ -7,6 +7,7 @@ header, footer {
     background-color:brown
 }
 
+
 .site-title {
     color:bisque
 }
@@ -21,4 +22,12 @@ section ul li {
 
 section>ul :nth-child(odd) {
     background-color: bisque
+}
+
+nav>ul {
+    list-style-type: none;
+}
+
+a:link {
+    text-decoration: none;
 }
