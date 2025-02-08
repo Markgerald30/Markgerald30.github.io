@@ -7,7 +7,6 @@ header, footer {
     background-color:brown
 }
 
-
 .site-title {
     color:bisque
 }
@@ -30,4 +29,17 @@ nav>ul {
 
 a:link {
     text-decoration: none;
+}
+
+nav {
+    background-color: bisque;
+    border-style:groove;
+}
+
+a:visited {
+    color:black
+}
+
+a:hover {
+    color:brown
 }
