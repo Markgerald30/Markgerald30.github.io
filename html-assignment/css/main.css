@@ -20,5 +20,5 @@ section ul li {
 }
 
 section>ul :nth-child(odd) {
-    background-color:yellow
+    background-color: bisque
 }
