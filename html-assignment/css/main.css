@@ -1,6 +1,7 @@
 /* this is css comment */
 body {
-    font-size:18px
+    font-family: arial ;
+    font-size:18px;
 }
 
 header, footer {
