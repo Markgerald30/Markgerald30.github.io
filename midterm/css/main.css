@@ -16,3 +16,9 @@ body {
 .widestarfish {
     width:1000px;
 }
+
+.heading1 {
+    position: absolute;
+    left: 300px;
+    top: 180px;
+}
