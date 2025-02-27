@@ -22,8 +22,12 @@ figure {
 }
 
 figcaption {
-    padding : 0px;
+    padding : 10px;
+    position: absolute;
+    top: 145px;
+    left: 305px;
     font-weight: bold;
+    font-size: 30px;
     color: white;
 }
 
@@ -32,21 +36,6 @@ figure img {
     height:auto;
     display: block;
 }
-
-/* .widestarfish {
-    width:1000px;
-} */
-
-/* .heading1 {
-    position: absolute;
-    left: 310px;
-    top: 155px;
-}
-
-h1 {
-    color: white;
-    font-size: 60px;
-} */
 
 nav li {
     display: inline-block;
