@@ -32,3 +32,12 @@ h1 {
     font-size: 60px;
 }
 
+nav li {
+    display: inline-block;
+    margin:0px;
+    width:auto;
+    padding: 0px 100px 0px 120px;
+    border-right: 2px groove black;
+
+}
+
