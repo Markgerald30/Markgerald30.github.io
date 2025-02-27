@@ -67,12 +67,20 @@ h2 {
     margin-top: 45px;
 }
 
-.lonestarfish {
-    width: 250px ;
-    height: 250px ;
+.container2 {
+    width:auto;
+    margin:10px;
 }
 
-.clearfix:after {
-    clear:both;
-    display:block;
+.lonestarfish {
+    width:250px;
+    height:250px;
+    margin-right: 25px;
+    margin-bottom: 35px;
+    float: left;
 }
+
+ article p {
+    line-height: 21px;
+}
+
