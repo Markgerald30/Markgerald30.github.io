@@ -36,8 +36,8 @@ nav li {
     display: inline-block;
     text-align: center;
     margin: 0px;
-    width:fit-content;
-    padding: 5px 120px 5px 126px;
+    width: 84px;
+    padding: 5px 120px 5px 125px;
     border: 2px;
     border-right: 1.5px groove black;
     font-size: 22px;
