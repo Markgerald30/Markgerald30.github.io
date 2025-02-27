@@ -8,7 +8,11 @@ body {
     margin:auto;
 }
 
-.image {
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.widestarfish {
     width:1000px;
-    margin:auto;
 }
