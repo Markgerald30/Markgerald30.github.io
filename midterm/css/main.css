@@ -1,17 +1,21 @@
+/* text font family */
 html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* body color */
 body {
     background-color: #aad4cf;
 }
 
+/* color layout */
 .wrapper {
     background-color:#D6F2EE;
     width: 1000px;
     margin:auto;
 }
 
+/* style of header */
 .container {
     position: relative;
     text-align: center;
@@ -36,6 +40,7 @@ figure img {
     display: block;
 }
 
+/* style of navigations */
 nav li {
     display: inline-block;
     text-align: center;
@@ -62,16 +67,19 @@ a:link {
     text-decoration : none;
 }
 
-h2 {
-    font-size: 32px;
-    margin-top: 45px;
-}
-
+/* life of starfish section */
 .container2 {
     width:auto;
     margin:10px;
 }
 
+/* heading 2 */
+h2 {
+    font-size: 32px;
+    margin-top: 45px;
+}
+
+/* this is the image with the text wrap */
 .lonestarfish {
     width:250px;
     height:250px;
@@ -84,21 +92,24 @@ h2 {
     line-height: 21px;
 }
 
+/* this is the facts of starfish section */
 .facts {
     width:auto;
     margin: 10px;
 }
-
+/* facts list */
 .list ul {
     margin-top: 12px;
     padding: 0 0 0 20px;
 }
 
+/* facts about starfish heading */
 h3 {
     margin: 40px 0px 10px 0px;
     font-size: 27px;
 }
 
+/* this is forms (contacts) section */
 .container3 {
     width:auto;
     margin:10px;
@@ -109,11 +120,13 @@ form {
     padding: 40px 10px 10px 10px;
 }
 
+/* contact heading */
 h4 {
     font-size: 27px;
     margin: 40px 0px 10px 0px;
 }
 
+/* styles for name and email boxes */
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
@@ -124,6 +137,7 @@ input[type=text], select {
     box-sizing: border-box;
 }
 
+/* style for message box */
 textarea {
     width: 100%;
     height:150px;
@@ -135,11 +149,13 @@ textarea {
     box-sizing: border-box;
 }
 
+/* send button */
 button {
-    margin: 8px 8px 8px 0px;
+    margin: 10px 8px 8px 0px;
     padding: 10px;
 }
 
+/* this is the copyright */
 footer {
     text-align: right;
     padding: 20px
