@@ -84,4 +84,17 @@ h2 {
     line-height: 21px;
 }
 
+.facts {
+    width:auto;
+    margin: 10px;
+}
 
+.list ul {
+    margin-top: 12px;
+    padding: 0 0 0 15px;
+}
+
+h3 {
+    margin: 40px 0px 10px 0px;
+    font-size: 27px;
+}
