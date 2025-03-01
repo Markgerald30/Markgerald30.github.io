@@ -22,12 +22,14 @@ body {
     height: auto;
 }
 
+/* image in header */
 .widestarfish {
     width: 100%;
     height:auto;
     display: block;
 }
 
+/* title of site */
 h1 {
     padding : 10px;
     position: absolute;
