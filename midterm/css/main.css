@@ -16,29 +16,47 @@ body {
 }
 
 /* style of header */
-.container {
-    position: relative;
-    text-align: center;
+ header {
+    position:relative;
+    width:1000px;
+    height: auto;
 }
 
-figure {
+.widestarfish {
+    width: 100%;
+    height:auto;
+    display: block;
+}
+
+h1 {
+    padding : 10px;
+    position: absolute;
+    top: 145px;
+    left: 305px;
+    font-size: 55px;
+    color: white;
+}
+
+
+
+/* figure {
     margin: 0px;
-}
+} */
 
-figcaption {
+/* figcaption {
     padding : 10px;
     position: absolute;
     top: 145px;
     left: 305px;
     font-size: 30px;
     color: white;
-}
+} */
 
-figure img {
+/* figure img {
     width: 100%;
     height:auto;
     display: block;
-}
+} */
 
 /* style of navigations */
 nav li {
