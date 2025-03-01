@@ -105,13 +105,14 @@ h2 {
 .lonestarfish {
     width:250px;
     height:250px;
-    margin-right: 25px;
-    margin-bottom: 35px;
+    margin-right: 21px;
+    margin-bottom: 25px;
     float: left;
 }
 
+/* article content text */
  article p {
-    line-height: 21px;
+    line-height: 22px;
 }
 
 /* this is the facts of starfish section */
