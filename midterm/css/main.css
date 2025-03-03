@@ -52,7 +52,7 @@ nav li {
     font-size: 25px;
 }
 
-/* color of link */
+/* color of on page link */
 a {
     color: black;
 }
@@ -63,6 +63,7 @@ nav ul {
     padding: 0px;
 }
 
+/* removed the visible right border line */
 .contact {
     border-right: none;
 }
