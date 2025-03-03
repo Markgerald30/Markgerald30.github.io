@@ -7,24 +7,21 @@
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
+    <!-- this is the background -->
     <div class="wrapper">
     <header>
-        <!-- <div class="container"> -->
-            <!-- <figure> -->
-                <!-- <figcaption> -->
-                    <h1>Lone Starfish</h1>
-                <!-- </figcaption> -->
-                <img src="images/lone-starfish-wide.jpg" alt="image of wide starfish" class="widestarfish">
-            <!-- </figure> -->
-        <!-- </div> -->
+        <h1>Lone Starfish</h1>
+        <img src="images/lone-starfish-wide.jpg" alt="image of wide starfish" class="widestarfish">
     </header>
     <main>
+        <!-- this is the navigations button -->
         <div>
             <nav>
-                <ul>
-                    <li><a href="home.html">HOME</a></li>
-                    <li><a href="story.html">STORY</a></li>
-                    <li class="contact"><a href="contact.html">CONTACT</a></li>
+                <ul> 
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#story">STORY</a></li>
+                    <!-- i put a class here to remove the visible border line in css -->
+                    <li class="contact"><a href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
         </div>
@@ -35,6 +32,7 @@
         </article>
         <section class="facts">
             <h3>Facts About Starfish</h3>
+            <!-- put a class to target list in css -->
             <div class="list">
                 <ul>
                     <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
@@ -47,14 +45,17 @@
         <section class="container3">
             <h4>Contact to learn more</h4>
             <form>
+                <!-- your name and answer box area -->
                 <div>
                     <label for="name">Your Name</label>
                     <input id="name" name="full name" type="text">
                 </div>
+                <!-- your email and answer box area -->
                 <div>
                     <label for="email">Your Email</label>
                     <input id="email" name="email" type="text">
                 </div>
+                <!-- your message and text box are -->
                 <div>
                     <label for="message">Your Message</label>
                     <textarea id="message"></textarea>
@@ -62,6 +63,7 @@
                 <p>
                     Would you like to visit the starfish?
                 </p>
+                <!-- here are buttons -->
                 <div>
                     <label for="yes">Yes</label>
                     <input id="yes" type="radio">
