@@ -146,6 +146,7 @@ nav ul a {
 /* about section */
 .serviceone {
     background-color: #ffe6ac;
+    margin: 0.5rem;
 }
 
 .serviceone img {
@@ -178,5 +179,44 @@ nav ul a {
 }
 
 .serviceone i {
+    font-size: 1.5rem;
+}
+
+/* marketing section */
+.servicetwo {
+    background-color: #ffe6ac;
+    margin: 0.5rem;
+}
+
+.servicetwo img {
+    width: 100%;
+}
+
+.servicetwo h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+
+.marketing {
+    padding: 1rem;
+}
+
+.servicetwo p {
+    padding-bottom: 1rem;
+}
+
+.servicetwo a {
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    padding: 2rem;
+    font-size: 1.2rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.servicetwo i {
     font-size: 1.5rem;
 }
