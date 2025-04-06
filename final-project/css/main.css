@@ -9,11 +9,12 @@ p {
 
 /* header style */
 header {
-    background-color: #222;
+    /* background-color: #222; */
 }
 
 /* nav container */
 nav {
+    background-color: #222;
     padding: 1rem;
     flex-direction: column;
     align-items: center;
@@ -41,4 +42,24 @@ nav ul li:first-child {
 nav ul a {
     color: #c78c06;
     font-size: 1.5rem;
+}
+
+/* search bar */
+.search-bar {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.search-bar input {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.search-bar button {
+    background-color: #222;
+    border: 1.5px solid #c78c06;
+    color: #c78c06;
+    padding: 0 0.3rem;
+    font-size: 22px;
 }
