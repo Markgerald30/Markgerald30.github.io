@@ -19,3 +19,26 @@ nav {
     align-items: center;
 }
 
+/* nav content styles */
+.logo {
+    background-color: #c78c06;
+}
+
+nav ul li {
+    list-style: none;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul li:first-child {
+    background-color: #c78c06;
+}
+
+.home {
+    color: #222;
+}
+
+nav ul a {
+    color: #c78c06;
+    font-size: 1.5rem;
+}
