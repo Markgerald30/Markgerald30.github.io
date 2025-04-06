@@ -2,3 +2,12 @@ body {
     font-family: "open sans", sans-serif;
     max-width: 1200px;
 }
+
+p {
+    line-height: 17pt;
+}
+
+/* header style */
+header {
+    background-color: #222;
+}
