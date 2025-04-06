@@ -4,6 +4,7 @@ body {
 }
 
 p {
+    font-size: 1rem;
     line-height: 17pt;
 }
 
@@ -63,4 +64,51 @@ nav ul a {
     color: #c78c06;
     padding: 0 0.3rem;
     font-size: 22px;
+}
+
+/* main banner */
+.title {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content-title {
+    background-color: #222222c9;
+    color: white;
+    position: absolute;
+    padding: 4rem 2rem 2rem 2rem;
+}
+
+.content-title h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.content-title p {
+    margin-bottom: 2rem;
+}
+
+/* connect with us button */
+.content-title a {
+    background-color: #c78c06;
+    color: #222;
+    text-decoration: none;
+    padding: 1.5rem;
+    font-size: 1rem;
+}
+
+.content-title i {
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
 }
