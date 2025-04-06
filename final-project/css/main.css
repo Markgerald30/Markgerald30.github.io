@@ -337,3 +337,51 @@ nav ul a {
 .servicefive i {
     font-size: 1.5rem;
 }
+
+/* vision section */
+.vision {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vision img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content-vision {
+    color: white;
+    position: absolute;
+    padding: 2rem;
+}
+
+.content-vision h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.content-vision p {
+    margin-bottom: 2rem;
+}
+
+/* learn more button */
+.content-vision a {
+    background-color: #222222e2;
+    color: white;
+    text-decoration: none;
+    padding: 1.5rem;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.content-vision i {
+    font-size: 1.2rem;
+}
