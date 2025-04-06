@@ -220,3 +220,120 @@ nav ul a {
 .servicetwo i {
     font-size: 1.5rem;
 }
+
+/* video production */
+.servicethree {
+    background-color: #ffe6ac;
+    margin: 0.5rem;
+}
+
+.servicethree img {
+    width: 100%;
+}
+
+.servicethree h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+
+.video {
+    padding: 1rem;
+}
+
+.servicethree p {
+    padding-bottom: 1rem;
+}
+
+.servicethree a {
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    padding: 2rem;
+    font-size: 1.2rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.servicethree i {
+    font-size: 1.5rem;
+}
+
+/* web development */
+.servicefour {
+    background-color: #ffe6ac;
+    margin: 0.5rem;
+}
+
+.servicefour img {
+    width: 100%;
+}
+
+.servicefour h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+
+.webdev {
+    padding: 1rem;
+}
+
+.servicefour p {
+    padding-bottom: 1rem;
+}
+
+.servicefour a {
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    padding: 2rem;
+    font-size: 1.2rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.servicefour i {
+    font-size: 1.5rem;
+}
+
+/* print section */
+.servicefive {
+    background-color: #ffe6ac;
+    margin: 0.5rem;
+}
+
+.servicefive img {
+    width: 100%;
+}
+
+.servicefive h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+
+.print {
+    padding: 1rem;
+}
+
+.servicefive p {
+    padding-bottom: 1rem;
+}
+
+.servicefive a {
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    padding: 2rem;
+    font-size: 1.2rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.servicefive i {
+    font-size: 1.5rem;
+}
