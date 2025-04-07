@@ -511,3 +511,32 @@ button {
     background-color: #222 ;
     color:#c78c06;
 }
+
+/* hours of operation table section */
+.hours {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.hours h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.hours table {
+    width: 100%;
+    border: 1px solid #222;
+    text-align: center;
+}
+
+.hours thead th {
+    background-color: #ffe6ac;
+    padding: 1rem;
+    border: 1px solid #222;
+}
+
+.hours tbody td {
+    padding: 1rem;
+    border: 1px solid #222;
+    text-align: left;
+}
