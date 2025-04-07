@@ -540,3 +540,18 @@ button {
     border: 1px solid #222;
     text-align: left;
 }
+
+/* location section */
+.location {
+    width: 100%;
+}
+
+.location h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.location iframe{
+    width: 100%;
+    height: 450px;
+}
