@@ -385,3 +385,73 @@ nav ul a {
 .content-vision i {
     font-size: 1.2rem;
 }
+
+/* our team section */
+.team {
+    background-color: white;
+    padding: 1rem;
+}
+
+.team h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+
+/* team 1/john doe section */
+.memberone {
+    margin: 0.5rem;
+}
+.memberone img {
+    width: 100%;
+}
+
+.ceo {
+    background-color: #ffe6ac;
+    padding: 1rem;
+}
+
+.memberone h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.memberone h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid #c78c06;
+}
+
+.memberone p {
+    padding: 0.5rem 0;
+}
+
+/* team 2/bob rite section */
+.membertwo {
+    margin: 0.5rem;
+}
+.membertwo img {
+    width: 100%;
+}
+
+.cfo {
+    background-color: #ffe6ac;
+    padding: 1rem;
+}
+
+.membertwo h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.membertwo h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid #c78c06;
+}
+
+.membertwo p {
+    padding: 0.5rem 0;
+}
