@@ -10,29 +10,28 @@ p {
 
 /* header style */
 header {
-    /* background-color: #222; */
+    background-color: #222;
 }
 
 /* nav container */
 nav {
-    background-color: #222;
     padding: 1rem;
-    flex-direction: column;
-    align-items: center;
 }
 
 /* nav content styles */
-.logo {
+nav ul .logo {
     background-color: #c78c06;
+    display: flex;
+    justify-content: left;
 }
 
 nav ul li {
     list-style: none;
     text-align: center;
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
-nav ul li:first-child {
+nav ul :nth-child(2) {
     background-color: #c78c06;
 }
 
@@ -42,7 +41,7 @@ nav ul li:first-child {
 
 nav ul a {
     color: #c78c06;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 /* search bar */
@@ -569,4 +568,34 @@ footer {
 
 footer :nth-child(1) {
     padding-bottom: 1rem;
-} 
+}
+
+@media screen and (min-width: 760px) {
+    /* navs sections */
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem 6rem;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: space-between;
+        margin: 1rem;
+        gap: 2rem;
+        width: 100%;
+    }
+
+    nav ul li {
+        padding: 0.5rem 1rem;
+    }
+
+    .search-bar {
+        margin-left: 4.5rem;
+        max-width: 250px;
+    }
+}
