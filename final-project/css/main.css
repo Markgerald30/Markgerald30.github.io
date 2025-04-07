@@ -1,6 +1,5 @@
 body {
     font-family: "open sans", sans-serif;
-    max-width: 1200px;
 }
 
 p {
@@ -49,11 +48,9 @@ nav ul a {
 .search-bar {
     width: 100%;
     display: flex;
-    position: relative;
 }
 
 .search-bar input {
-    flex: 1;
     padding: 0.5rem;
     font-size: 1.5rem;
 }
@@ -78,8 +75,11 @@ nav ul a {
 
 .title img {
     width: 100%;
-    height: auto;
+    height: 650px;
     display: block;
+    object-fit: cover;
+    /* overflow: hidden; */
+    object-position: center;
 }
 
 .content-title {
@@ -350,8 +350,9 @@ nav ul a {
 
 .vision img {
     width: 100%;
-    height: auto;
+    height: 310px;
     display: block;
+    object-fit: cover;
 }
 
 .content-vision {
@@ -555,3 +556,15 @@ button {
     width: 100%;
     height: 450px;
 }
+
+/* footer section */
+footer {
+    background-color: #222;
+    color: #c78c06;
+    width: 100%;
+    padding: 1.5rem;
+}
+
+footer :nth-child(1) {
+    padding-bottom: 1rem;
+} 
