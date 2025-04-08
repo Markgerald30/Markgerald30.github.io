@@ -41,7 +41,7 @@ nav ul :nth-child(2) {
 
 nav ul a {
     color: #c78c06;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 /* search bar */
@@ -79,7 +79,6 @@ nav ul a {
     height: 650px;
     display: block;
     object-fit: cover;
-    /* overflow: hidden; */
     object-position: center;
 }
 
@@ -562,7 +561,7 @@ form {
 footer {
     background-color: #222;
     color: #c78c06;
-    width: 100%;
+    width: auto;
     padding: 1.5rem;
 }
 
@@ -599,7 +598,7 @@ footer :nth-child(1) {
         max-width: 250px;
     }
 
-    /* main banner/title */    
+    /* main banner/title */   
     .content-title {
         background-color: #222222c9;
         color: white;
@@ -632,5 +631,36 @@ footer :nth-child(1) {
     
     .content-title i {
         font-size: 1.2rem;
+    }
+
+    /* about us section */
+    .about {
+        padding: 1rem 2rem;
+        background-color: #ffe6ac;
+        width: auto;
+    }
+
+    .content-about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .content-about img {
+        width: 40%;
+    }
+
+    .written-about {
+        width: 40%;
+    }
+
+    .written-about h2 {
+        font-size: 3rem;
+    }
+
+    .written-about p {
+        margin-bottom: 1rem;
+        line-height: 1.6;
     }
 }
