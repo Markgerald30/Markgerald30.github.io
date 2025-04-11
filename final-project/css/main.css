@@ -703,4 +703,38 @@ footer :nth-child(1) {
     .servicefive {
         grid-column: 5 / 7;
     }
+
+    /* vision */
+    .content-vision {
+        padding: 0 8rem;
+    }
+
+    /* team section */
+    .team {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 5rem;
+    }
+    .team h2 {
+        margin-bottom: 1rem;
+    }
+    .team img {
+        width: 100%;
+    }
+
+    .memberone {
+        display: flex;
+        margin: 0;
+    }
+
+    .membertwo {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0;
+    }
+    
+    .ceo, .cfo {
+        width: 96%;
+    }
 }
