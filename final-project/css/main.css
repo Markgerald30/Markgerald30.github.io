@@ -61,7 +61,7 @@ nav ul a {
     border: 1.5px solid #c78c06;
     color: #c78c06;
     font-size: 1.5rem;
-    padding: 0.5;
+    padding: 0.5rem;
 }
 
 /* main banner */
@@ -402,62 +402,51 @@ nav ul a {
     padding: 0.5rem 0;
 }
 
-/* team 1/john doe section */
-.memberone {
-    margin: 1rem 0;
-    background-color: #ffe6ac;
-}
-.memberone img {
+/* john doe */
+.john-image img {
     width: 100%;
 }
 
 .ceo {
+    width: auto;
+    background-color: #ffe6ac;;
     padding: 1rem;
 }
 
-.memberone h3 {
+.ceo h3 {
     font-size: 2rem;
     font-weight: bold;
 }
 
-.memberone h4 {
+.ceo h4 {
     font-size: 1rem;
     font-weight: bold;
     padding: 0.5rem 0;
     border-bottom: 2px solid #c78c06;
 }
 
-.memberone p {
-    padding: 0.5rem 0;
-}
-
-/* team 2/bob rite section */
-.membertwo {
-    margin: 1rem 0;
-    background-color: #ffe6ac;
-}
-.membertwo img {
+/* bob rite */
+.bob-image img {
     width: 100%;
+    margin-top: 1rem;
 }
 
 .cfo {
+    width: auto;
+    background-color: #ffe6ac;;
     padding: 1rem;
 }
 
-.membertwo h3 {
+.cfo h3 {
     font-size: 2rem;
     font-weight: bold;
 }
 
-.membertwo h4 {
+.cfo h4 {
     font-size: 1rem;
     font-weight: bold;
     padding: 0.5rem 0;
     border-bottom: 2px solid #c78c06;
-}
-
-.membertwo p {
-    padding: 0.5rem 0;
 }
 
 /* contact us section */
@@ -711,30 +700,70 @@ footer :nth-child(1) {
 
     /* team section */
     .team {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        padding: 5rem;
+        padding : 0 5rem;
     }
+
     .team h2 {
-        margin-bottom: 1rem;
-    }
-    .team img {
-        width: 100%;
+        padding: 1rem 0;
     }
 
-    .memberone {
-        display: flex;
+    .team-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .john-image {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .ceo {
+        grid-column: 2 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .bob-image {
+        grid-column: 2 / 2;
+        grid-row: 2 / 2;
+    }
+
+    .bob-image img {
         margin: 0;
     }
 
-    .membertwo {
-        display: flex;
-        flex-direction: row-reverse;
-        margin: 0;
+    .cfo {
+        grid-column: 1 / 2;
+        grid-row: 2 / 2;
     }
-    
-    .ceo, .cfo {
-        width: 96%;
+
+    /* contacts */
+    .contact {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 0 5rem;
+    }
+
+    .contact h2 {
+        flex-basis: 100%;
+    }
+
+    .message {
+        flex-basis: calc(50% - 1rem);
+    }
+
+    .location {
+        flex-basis: calc(50% - 1rem);
+    }
+
+    .hours {
+        flex-basis: 100%;
+        order: 2;
+    }
+
+    /* footer section */
+    footer p{
+        padding: 0 5rem;
     }
 }
