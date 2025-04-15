@@ -1,8 +1,11 @@
-body {
+html {
     font-family: "open sans", sans-serif;
-    width: auto;
 }
 
+body {
+    width: auto;
+}
+/* text - font size set up */
 p {
     font-size: 1rem;
     line-height: 17pt;
@@ -44,7 +47,7 @@ nav ul a {
     font-size: 1.5rem;
 }
 
-/* search bar */
+/* nav - search bar */
 .search-bar {
     width: 100%;
     display: flex;
@@ -64,7 +67,7 @@ nav ul a {
     padding: 0.5rem;
 }
 
-/* main banner */
+/* main banner - title */
 .title {
     position: relative;
     width: 100%;
@@ -86,9 +89,7 @@ nav ul a {
     background-color: #222222c9;
     color: white;
     position: absolute;
-    /* top: 2rem;
-    left: 1rem; */
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .content-title h1 {
@@ -101,7 +102,7 @@ nav ul a {
     margin-bottom: 2rem;
 }
 
-/* connect with us button */
+/* main banner - connect with us button */
 .content-title a {
     background-color: #c78c06;
     color: #222;
@@ -145,7 +146,7 @@ nav ul a {
     padding: 0.5rem 0;
 }
 
-/* about section */
+/* Digital Transformation */
 .serviceone {
     background-color: #ffe6ac;
     margin-top: 1rem;
@@ -223,7 +224,7 @@ nav ul a {
     font-size: 1.5rem;
 }
 
-/* video production */
+/* Video production */
 .servicethree {
     background-color: #ffe6ac;
     margin-top: 1rem;
@@ -262,7 +263,7 @@ nav ul a {
     font-size: 1.5rem;
 }
 
-/* web development */
+/* Web development */
 .servicefour {
     background-color: #ffe6ac;
     margin-top: 1rem;
@@ -557,18 +558,24 @@ footer {
     padding: 1.5rem;
 }
 
+footer a {
+    text-decoration: underline;
+    color: #c78c06;
+}
+
 footer :nth-child(1) {
     padding-bottom: 1rem;
 }
 
 @media screen and (min-width: 760px) {
-    /* navs sections */
+
+    /* navigations sections */
     nav {
+        width: 1200px;
+        margin: auto;
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
-        padding: 2rem 10rem;
     }
 
     nav ul {
@@ -576,38 +583,43 @@ footer :nth-child(1) {
         flex-direction: row;
         align-items:center;
         justify-content: space-between;
-        margin: 1rem;
+        margin-right: 2rem;
         gap: 2rem;
         width: 100%;
+        padding: 1rem;
     }
 
-    nav ul li {
-        padding: 0.5rem 1rem;
+    nav ul .logo {
+        background-color: transparent;
+    }
+
+    nav ul :nth-child(2) {
+        padding: 1rem;
+    }
+
+    nav ul a {
+        font-size: 1rem;
     }
 
     .search-bar {
-        margin-left: 4.5rem;
-        max-width: 250px;
+        width: 30%;
     }
 
-    /* main banner/title */   
+    /* main banner/title */  
     .content-title {
+        width: 1200px;
+        margin: auto;
         background-color: #222222c9;
         color: white;
         position: absolute;
-        width: 80%;
-        height: 80%;
-        padding-top: 2rem;
+        padding-top: 7rem;
     }
     
     .content-title h1 {
         font-size: 6rem;
         font-weight: bold;
-        margin-bottom: 1rem;
-    }
-    
-    .content-title p {
-        margin-bottom: 2rem;
+        line-height: 7rem;
+        margin: 1.5rem 0;
     }
     
     /* connect with us button */
@@ -627,40 +639,35 @@ footer :nth-child(1) {
     }
 
     /* about us section */
-    .about {
-        padding: 1rem 2rem;
+    .about-wrapper {
         background-color: #ffe6ac;
-        width: auto;
     }
-
-    .content-about {
+    .about {
+        width: 1200px;
+        margin: auto;
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 1.5rem;
-    }
-
-    .content-about img {
-        width: 40%;
-    }
-
-    .written-about {
-        width: 40%;
+        gap: 1rem;
     }
 
     .written-about h2 {
-        font-size: 3rem;
+        padding: 2rem 0;
     }
 
-    .written-about p {
-        margin-bottom: 1rem;
-        line-height: 1.6;
+    .content-about, .written-about {
+        flex-basis: calc(50%);
     }
 
-    /* our service section/grid */
+    /* all services container/grid */
     .allservice {
-        width: auto;
-        padding: 0 7rem;
+        width: 1200px;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+    .allservice h2 {
+        padding-top: 1rem;
     }
 
     .grid-service {
@@ -693,14 +700,17 @@ footer :nth-child(1) {
         grid-column: 5 / 7;
     }
 
-    /* vision */
+    /* vision section */
     .content-vision {
-        padding: 0 8rem;
+        width: 1200px;
+        padding: 0 7rem;
     }
 
     /* team section */
     .team {
-        padding : 0 5rem;
+        width: 1200px;
+        margin: auto;
+        padding : 0 6rem;
     }
 
     .team h2 {
@@ -737,12 +747,14 @@ footer :nth-child(1) {
         grid-row: 2 / 2;
     }
 
-    /* contacts */
+    /* contacts section */
     .contact {
+        width: 1200px;
+        margin: auto;
         display: flex;
         flex-wrap: wrap;
         gap: 1rem;
-        padding: 0 5rem;
+        padding: 1rem 0;
     }
 
     .contact h2 {
@@ -764,6 +776,7 @@ footer :nth-child(1) {
 
     /* footer section */
     footer p{
-        padding: 0 5rem;
+        width: 1200px;
+        margin: auto;
     }
 }
