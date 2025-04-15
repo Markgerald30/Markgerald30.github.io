@@ -680,6 +680,18 @@ footer :nth-child(1) {
         grid-column: 1 / 7;
     }
 
+    /* button adjustment, text centered inside the button */
+    .serviceone a, .servicetwo a {
+        width: 88%;
+        justify-content: center;
+    }
+
+    .servicethree a, .servicefour a, .servicefive a {
+        width: 80%;
+        justify-content: center;
+    }
+
+    /* services grid positions */
     .serviceone {
         grid-column: 1 / 4;
     }
